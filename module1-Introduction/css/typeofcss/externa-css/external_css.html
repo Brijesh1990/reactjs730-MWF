@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $("#slide").cycle("fade,shuffle,turnLeft,turnRight");
+
+        })
+    </script>
+</head>
+<body>
+    <!-- header start here -->
+    <div class="header top-header">
+        <div class="call-us"><i class="fa fa-phone"></i> (+91)-9998003879</div>
+       <div class="search"><input type="text" name="search" placeholder="Search your products here"></div>
+        <div class="social">
+            <i class="fa  fa-facebook"></i>
+            <i class="fa  fab fa-twitter"></i>
+            <i class="fa  fab fa-pinterest"></i>
+            <i class="fa  fab fa-instagram"></i>
+            <i class="fa  fab fa-youtube"></i>
+            <i class="fa  fab fa-whatsapp"></i></div>
+    </div>
+    <!-- navigation start here -->
+    <div class="nav navbar">
+        <div class="logo">
+            <h1>Flipkart</h1>
+        </div>
+        <div class="navbar-link">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Men's Items</a></li>
+                <li><a href="">Women's Items</a></li>
+                <li><a href="">Kid's Items</a></li>
+                <li><a href="">Offer</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="">Contactus</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- slider here -->
+    <div class="slider hero-section">
+        <div id="slide">
+            <img src="images/1.jpg">
+            <img src="images/2.jpg">
+            <img src="images/3.jpg">
+        </div>
+    </div>
+    <!-- content start here -->
+    <div class="content">
+        <h1>50% off on selected products hurry up!</h1>
+        <div class="product-block"></div>
+    </div>
+    <!-- footeer start here -->
+    <div class="footer"></div>
+</body>
+</html>
