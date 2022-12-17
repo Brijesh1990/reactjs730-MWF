@@ -1,0 +1,39 @@
+<script>
+    /*
+    nested if : condition within another condition there we used nested if 
+
+      if(condition)
+      {
+        if(condition)
+        {
+            statememnts;
+        }
+      }
+      else 
+      {
+        statements;
+      }
+    
+    */ 
+     function test()
+     {
+        let a="10"; //string
+        let n1=parseInt(prompt("Enter N1 numbers :"));
+        let n2=parseInt(prompt("Enter N2 numbers :"));
+        if(n1>n2)
+        {
+            if(n1!=0 && n2!=0)
+            {
+               document.getElementById("chk").innerHTML="a is greter than b and both are positive numbers";           
+            }
+        }
+        else 
+        {
+            document.getElementById("chk").innerHTML="a is less than b";           
+            
+        }
+     }
+</script>
+
+    <p id="chk"></p>
+    <button type="button" onclick="test()" style="background-color: red; color:white; margin-left: 40%; border:none; padding:5px; width: 250px;">check</button>

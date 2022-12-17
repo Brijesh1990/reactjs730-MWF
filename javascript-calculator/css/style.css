@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+.clc 
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    margin-top: 5%;
+}
+.clc input 
+{
+    border: 0;
+    padding: 5px;
+    
+}
+::placeholder 
+{
+    color: black;
+    font-size: 18px;
+    
+}
+.calculator
+{
+    width: 40% !important;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+#btn 
+{
+    width: 24%;
+    min-height: 8vh !important;
+    font-size: 14px;
+    font-weight: 100 !important;
+    border: none;
+    color: white;
+    background-color: gray;
+}
+#btn1 
+{
+    width: 24%;
+    min-height: 8vh !important;
+    font-size: 14px;
+    font-weight: 100 !important;
+    border: none;
+    color: black;
+    background-color: lightgray;
+}

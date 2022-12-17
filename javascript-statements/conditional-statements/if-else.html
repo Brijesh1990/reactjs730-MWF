@@ -1,0 +1,38 @@
+<!-- 
+    /*
+    if else: if is executed when condition is true if is false else is executed
+    syntax  
+       
+          if(condition)
+          {
+            statements;
+          }
+          else 
+          {
+            statements
+          }
+    
+    */ 
+
+ -->
+ <script>
+      function log()
+      {
+        let email=prompt("Enter Your email :");
+        let password=prompt("Enter Your password :");
+        if(email=='parth007@gmail.com' && password=='parth$$123' )
+        {
+            alert('You are Logged In successfully')
+            window.location='http://www.onlineportfolio.byethost14.com';
+        }
+        else 
+        {
+          
+            alert('You email and password are wrong')
+            window.location='if-else.html';
+         
+        }
+
+      }
+ </script>
+ <button type="button" onclick="log()">click for Logged In</button>

@@ -1,0 +1,47 @@
+<script>
+    /*
+    if elseif :  if is executed when condition is true elseif check condition multiple time while condition is true if elseif false else is executed 
+
+      if(condition)
+      {
+        statements
+      }
+      elseif(condition) 
+      {
+        statements;
+      }
+      elseif(condition) 
+      {
+        statements;
+      }
+      else 
+      {
+        statements;
+      }    
+    */ 
+     function test()
+     {
+        //let a="10"; //string
+        let n1=parseInt(prompt("Enter N1 numbers :"));
+        let n2=parseInt(prompt("Enter N2 numbers :"));
+        if(n1>n2)
+        {
+            if(n1!=0 && n2!=0)
+            {
+               document.getElementById("chk").innerHTML="N1 is greter than N2 and both are positive numbers";           
+            }
+        }
+        else if(n2>n1) 
+        {
+            document.getElementById("chk").innerHTML="N2 is greter than is N1";           
+            
+        }
+        else
+        {
+            document.getElementById("chk").innerHTML="N1 is equal  with N2";
+        }
+     }
+</script>
+
+    <p id="chk"></p>
+    <button type="button" onclick="test()" style="background-color: red; color:white; margin-left: 40%; border:none; padding:5px; width: 250px;">check</button>
